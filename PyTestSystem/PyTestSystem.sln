@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PyTestSystem", "PyTestSystem.pyproj", "{4D803200-8C28-49AE-8FD7-58E6B3D79F1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D803200-8C28-49AE-8FD7-58E6B3D79F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D803200-8C28-49AE-8FD7-58E6B3D79F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80C2046E-DA38-4868-B132-B6210DF78CB9}
+	EndGlobalSection
+EndGlobal

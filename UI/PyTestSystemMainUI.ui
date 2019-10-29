@@ -1,0 +1,1906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainTestWindow</class>
+ <widget class="QMainWindow" name="MainTestWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>50</y>
+      <width>580</width>
+      <height>420</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="selectPage">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>550</width>
+        <height>400</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="elideMode">
+       <enum>Qt::ElideLeft</enum>
+      </property>
+      <property name="usesScrollButtons">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="selectTab_1">
+       <attribute name="title">
+        <string>1</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QCheckBox" name="checkBox_1_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_1_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_1_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_1_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QCheckBox" name="checkBox_1_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_1_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_1_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_1_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_2">
+       <attribute name="title">
+        <string>2</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_13">
+           <item>
+            <widget class="QCheckBox" name="checkBox_2_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_2_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_2_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_2_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_14">
+           <item>
+            <widget class="QCheckBox" name="checkBox_2_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_2_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_2_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_2_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_3">
+       <attribute name="title">
+        <string>3</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_15">
+           <item>
+            <widget class="QCheckBox" name="checkBox_3_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_3_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_3_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_3_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_16">
+           <item>
+            <widget class="QCheckBox" name="checkBox_3_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_3_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_3_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_3_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_4">
+       <attribute name="title">
+        <string>4</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_17">
+           <item>
+            <widget class="QCheckBox" name="checkBox_4_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_4_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_4_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_4_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_18">
+           <item>
+            <widget class="QCheckBox" name="checkBox_4_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_4_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_4_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_4_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_5">
+       <attribute name="title">
+        <string>5</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_19">
+           <item>
+            <widget class="QCheckBox" name="checkBox_5_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_5_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_5_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_5_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_20">
+           <item>
+            <widget class="QCheckBox" name="checkBox_5_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_5_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_5_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_5_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_6">
+       <attribute name="title">
+        <string>6</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_21">
+           <item>
+            <widget class="QCheckBox" name="checkBox_6_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_6_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_6_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_6_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_22">
+           <item>
+            <widget class="QCheckBox" name="checkBox_6_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_6_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_6_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_6_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_7">
+       <attribute name="title">
+        <string>7</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_7">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_23">
+           <item>
+            <widget class="QCheckBox" name="checkBox_7_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_7_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_7_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_7_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_24">
+           <item>
+            <widget class="QCheckBox" name="checkBox_7_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_7_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_7_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_7_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_8">
+       <attribute name="title">
+        <string>8</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_8">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_8">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_25">
+           <item>
+            <widget class="QCheckBox" name="checkBox_8_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_8_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_8_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_8_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_8">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_26">
+           <item>
+            <widget class="QCheckBox" name="checkBox_8_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_8_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_8_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_8_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_9">
+       <attribute name="title">
+        <string>9</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_9">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_9">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_27">
+           <item>
+            <widget class="QCheckBox" name="checkBox_9_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_9_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_9_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_9_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_9">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_28">
+           <item>
+            <widget class="QCheckBox" name="checkBox_9_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_9_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_9_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_9_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_10">
+       <attribute name="title">
+        <string>10</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_10">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_10">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_10">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_29">
+           <item>
+            <widget class="QCheckBox" name="checkBox_10_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_10_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_10_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_10_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_10">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_30">
+           <item>
+            <widget class="QCheckBox" name="checkBox_10_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_10_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_10_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_10_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_11">
+       <attribute name="title">
+        <string>11</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_11">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_11">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_11">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_31">
+           <item>
+            <widget class="QCheckBox" name="checkBox_11_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_11_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_11_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_11_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_11">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_32">
+           <item>
+            <widget class="QCheckBox" name="checkBox_11_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_11_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_11_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_11_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_12">
+       <attribute name="title">
+        <string>12</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_12">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_12">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_12">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_33">
+           <item>
+            <widget class="QCheckBox" name="checkBox_12_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_12_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_12_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_12_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_12">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_34">
+           <item>
+            <widget class="QCheckBox" name="checkBox_12_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_12_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_12_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_12_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_13">
+       <attribute name="title">
+        <string>13</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_13">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_13">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_13">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_35">
+           <item>
+            <widget class="QCheckBox" name="checkBox_13_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_13_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_13_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_13_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_13">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_36">
+           <item>
+            <widget class="QCheckBox" name="checkBox_13_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_13_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_13_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_13_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_14">
+       <attribute name="title">
+        <string>14</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_14">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_14">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_14">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_37">
+           <item>
+            <widget class="QCheckBox" name="checkBox_14_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_14_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_14_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_14_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_14">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_38">
+           <item>
+            <widget class="QCheckBox" name="checkBox_14_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_14_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_14_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_14_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="selectTab_15">
+       <attribute name="title">
+        <string>15</string>
+       </attribute>
+       <widget class="QTextBrowser" name="selectTextBrowser_15">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_15">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>441</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_15">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_39">
+           <item>
+            <widget class="QCheckBox" name="checkBox_15_1">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_15_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_15_2">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_15_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_15">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_40">
+           <item>
+            <widget class="QCheckBox" name="checkBox_15_3">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_15_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkBox_15_4">
+             <property name="text">
+              <string>CheckBox</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">select_15_ButtonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="fillPage">
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>550</width>
+        <height>400</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="fillTab_1">
+       <attribute name="title">
+        <string>1</string>
+       </attribute>
+       <widget class="QTextBrowser" name="fillTextBrowser_1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>250</y>
+          <width>195</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string> 答案：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="fillLineEdit_1"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_18">
+       <attribute name="title">
+        <string>2</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_16">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>250</y>
+          <width>195</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string> 答案：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="fillLineEdit_2"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTextBrowser" name="fillTextBrowser_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_17">
+       <attribute name="title">
+        <string>3</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_17">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>250</y>
+          <width>195</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string> 答案：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="fillLineEdit_3"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTextBrowser" name="fillTextBrowser_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_19">
+       <attribute name="title">
+        <string>4</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_18">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>250</y>
+          <width>195</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string> 答案：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="fillLineEdit_4"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTextBrowser" name="fillTextBrowser_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_20">
+       <attribute name="title">
+        <string>5</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_19">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>250</y>
+          <width>195</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string> 答案：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="fillLineEdit_5"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTextBrowser" name="fillTextBrowser_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_21">
+       <attribute name="title">
+        <string>6</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_20">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>250</y>
+          <width>195</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string> 答案：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="fillLineEdit_6"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTextBrowser" name="fillTextBrowser_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_22">
+       <attribute name="title">
+        <string>7</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_21">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>250</y>
+          <width>195</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_9">
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string> 答案：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="fillLineEdit_7"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTextBrowser" name="fillTextBrowser_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_23">
+       <attribute name="title">
+        <string>8</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_22">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>250</y>
+          <width>195</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_10">
+         <item>
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string> 答案：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="fillLineEdit_8"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTextBrowser" name="fillTextBrowser_8">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_24">
+       <attribute name="title">
+        <string>9</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_23">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>250</y>
+          <width>195</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_11">
+         <item>
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string> 答案：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="fillLineEdit_9"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTextBrowser" name="fillTextBrowser_9">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_25">
+       <attribute name="title">
+        <string>10</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_24">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>250</y>
+          <width>195</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <item>
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string> 答案：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="fillLineEdit_10"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTextBrowser" name="fillTextBrowser_10">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>521</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QRadioButton" name="selectRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>10</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选择题</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">switchButtonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="fillRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>10</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>填空题</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">switchButtonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QTextBrowser" name="infoTextBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="leftTimeTextBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>考试剩余时间</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="leftTextBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>已答/未答题目</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="finishPushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>交卷</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logoutPushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>放弃</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="select_7_ButtonGroup"/>
+  <buttongroup name="select_3_ButtonGroup"/>
+  <buttongroup name="select_11_ButtonGroup"/>
+  <buttongroup name="select_14_ButtonGroup"/>
+  <buttongroup name="select_9_ButtonGroup"/>
+  <buttongroup name="select_8_ButtonGroup"/>
+  <buttongroup name="select_13_ButtonGroup"/>
+  <buttongroup name="select_1_ButtonGroup"/>
+  <buttongroup name="select_10_ButtonGroup"/>
+  <buttongroup name="select_4_ButtonGroup"/>
+  <buttongroup name="switchButtonGroup"/>
+  <buttongroup name="select_5_ButtonGroup"/>
+  <buttongroup name="select_6_ButtonGroup"/>
+  <buttongroup name="select_12_ButtonGroup"/>
+  <buttongroup name="select_2_ButtonGroup"/>
+  <buttongroup name="select_15_ButtonGroup"/>
+ </buttongroups>
+</ui>
